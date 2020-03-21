@@ -1,0 +1,15 @@
+{
+  "name": "apollo-graphql-with-mern",
+  "version": "1.0.0",
+  "description": "## Server Set Up Create a folder in your project called `server`. `cd` into the `server` folder.",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm start --prefix client",
+    "frontend:build": "npm run build --prefix client",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run server --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
